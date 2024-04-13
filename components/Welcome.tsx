@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Login from "./Login";
 
 const Welcome = () => {
   const [openAccordion, setOpenAccordion] = useState(null);
@@ -204,12 +205,6 @@ const Welcome = () => {
             </div>
           )}
           <hr className="border-b-1 border-fade" />
-        </div>
-        <div className="text-center">
-          <h1 className="text-xl font-bold">Contact Me</h1>
-          <p>-</p>
-          <p>Onur Doğan</p>
-          <p>c2028008@student.cankaya.edu.tr</p>
         </div>
       </div>
     </>
