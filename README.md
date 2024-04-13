@@ -1,40 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# OpenSignature
 
-## Getting Started
+#### Abstract
+This is a free auxiliary tool to create professional email signatures easier
+It has various inputs and ables customizations of them, see all the features below
 
-First, run the development server:
+#### Tech
+Software languages that were used in the project:
+* _HTML, CSS, Tailwind CSS, TypeScript, JavaScript, Node.js, React.js, Next.js and Git_
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Other dependencies of the project:
+* _Tailwind Merge, Class Variance Authority, clsx, Zustand, and Prettier_
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Extensions that helped the process of the project:
+* _Code Spell Check, Tailwind CSS Intellisense, ESLint, ES+7 React/Redux/React-Native snippets, Git History and gitignore_
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+#### Features
+The project as a site has a header and three main sections:
+* In the first section, there are steps that forwards users to the second section's related content
+* In different steps of the second section, the user can input their info, and customize the style -- font, size, and colors
+* In the third section (which becomes merged with the second section in small screens to be more responsive) the generated email signature preview is shown, which updates according to every change in the other sections instantly
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+The user can the click the copy button on the header after creating their signature, and it automatically copies the generated email signature to be easily pasted in anywhere
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Installation
+1. Clone the repo or download manually from GitHub
+2. Install dependencies
+3. Ready to run
